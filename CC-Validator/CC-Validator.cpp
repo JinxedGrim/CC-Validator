@@ -18,7 +18,7 @@ int main()
             system("cls");
             unsigned long long Number;
             std::cout << "Enter a Credit/Debit Card Number As One Whole Number: " << std::endl;
-            std::cin >> Number; // 4746394002664801
+            std::cin >> Number;
 
             CardVerifier VerificationData = Number;
 
